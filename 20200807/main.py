@@ -12,8 +12,16 @@ while num<=100:
     print(num)
     num+=1'''
 
-num=int(input())
+'''num=int(input())
 i=1
 while i<=num:
     print(i," ",i**2)
+    i+=1'''
+
+h=100
+i=1
+
+while i<=10:
+    h*=3/5
+    print(i," ",round(h,4))
     i+=1
