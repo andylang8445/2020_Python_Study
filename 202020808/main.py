@@ -44,8 +44,7 @@ for i in a:
 list_a=[1,1,2,3,5,8,13,21]
 print_list(list_a)'''
 
-
-def intComp(x, y):
+'''def intComp(x, y):
     if x > y:
         print("%d > %d" % (x, y))
     elif x == y:
@@ -56,4 +55,14 @@ def intComp(x, y):
 
 a = int(input("num1: "))
 b = int(input("num2: "))
-intComp(a, b)
+intComp(a, b)'''
+
+
+def gugu(n):
+    for m in range(1, 10):
+        print("%d * %d = %d" % (n, m, n * m))
+
+
+for i in range(2, 10):
+    gugu(i)
+    print()
