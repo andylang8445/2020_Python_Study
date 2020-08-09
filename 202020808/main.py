@@ -24,7 +24,15 @@ if check==1:
 else:
     prin("평년")'''
 
-family = ['mother', 'father', 'me', 'sister']
+'''family = ['mother', 'father', 'me', 'sister']
 
 for x in family:
-    print('%s %d'%(x,len(x)))
+    print('%s %d'%(x,len(x)))'''
+
+'''a=[1,2,3,5,6,7,10]
+
+for i in a:
+    print(i)'''
+
+for i in range(1,10):
+    print(i)
