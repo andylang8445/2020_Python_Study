@@ -57,7 +57,6 @@ a = int(input("num1: "))
 b = int(input("num2: "))
 intComp(a, b)'''
 
-
 '''def gugu(n):
     for m in range(1, 10):
         print("%d * %d = %d" % (n, m, n * m))
@@ -67,11 +66,22 @@ for i in range(2, 10):
     gugu(i)
     print()'''
 
-def bomb(n):
+'''def bomb(n):
     if n==0:
         print("BOOM!")
     else:
         print("%d..."%n)
         bomb(n-1)
 
-bomb(10)
+bomb(10)'''
+
+
+def sumOfDigits(n, sum):
+    if n == 0:
+        print(sum)
+    elif n > 0:
+        sumOfDigits((int)(n / 10), (sum + n % 10))
+
+
+n = int(input())
+sumOfDigits(n, 0)
