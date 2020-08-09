@@ -134,3 +134,5 @@ print(reduce(lambda x, y: y + x, 'abcde'))'''
 print(list(filter(lambda x: x < 5, range(10))))
 print(list(filter(lambda x: (x % 2), range(10))))
 '''
+
+
