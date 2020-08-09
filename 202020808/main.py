@@ -34,5 +34,26 @@ for x in family:
 for i in a:
     print(i)'''
 
-for i in range(1,10):
-    print(i)
+'''for i in range(1,10):
+    print(i)'''
+
+'''def print_list(a):
+    for i in a:
+        print(i)
+
+list_a=[1,1,2,3,5,8,13,21]
+print_list(list_a)'''
+
+
+def intComp(x, y):
+    if x > y:
+        print("%d > %d" % (x, y))
+    elif x == y:
+        print("%d == %d" % (x, y))
+    else:
+        print("%d < %d" % (x, y))
+
+
+a = int(input("num1: "))
+b = int(input("num2: "))
+intComp(a, b)
