@@ -75,8 +75,7 @@ for i in range(2, 10):
 
 bomb(10)'''
 
-
-def sumOfDigits(n, sum):
+'''def sumOfDigits(n, sum):
     if n == 0:
         print(sum)
     elif n > 0:
@@ -84,4 +83,18 @@ def sumOfDigits(n, sum):
 
 
 n = int(input())
-sumOfDigits(n, 0)
+sumOfDigits(n, 0)'''
+
+x = 10
+
+
+def function():
+    x = 30
+    global y
+    y = 20
+    print(x)
+
+
+function()
+print(x)
+print(y)
