@@ -85,7 +85,7 @@ bomb(10)'''
 n = int(input())
 sumOfDigits(n, 0)'''
 
-x = 10
+'''x = 10
 
 
 def function():
@@ -97,4 +97,40 @@ def function():
 
 function()
 print(x)
-print(y)
+print(y)'''
+
+'''def triangleArea(b, h):
+    area = b * h * 0.5
+    return area
+
+
+base = float(input("base: "))
+height = float(input("height: "))
+A = triangleArea(base, height)
+print("Area: %g" % A)'''
+
+'''
+#lambda
+print((lambda x, y: x + y)(10, 20))
+'''
+
+'''
+# map
+print(list(map(lambda x: x ** 2, range(5))))
+'''
+
+'''
+#reduce
+from functools import reduce
+
+print(reduce(lambda x, y: x + y, range(5)))
+print(reduce(lambda x, y: x + y, ['a', 'b', 'c', 'd', 'e']))
+print(reduce(lambda x, y: x + y, 'abcde'))
+print(reduce(lambda x, y: y + x, ['a', 'b', 'c', 'd', 'e']))
+print(reduce(lambda x, y: y + x, 'abcde'))'''
+
+'''
+# filter
+print(list(filter(lambda x: x < 5, range(10))))
+print(list(filter(lambda x: (x % 2), range(10))))
+'''
